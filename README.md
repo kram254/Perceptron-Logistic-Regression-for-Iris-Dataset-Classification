@@ -3,12 +3,14 @@ This program implements Perceptron and Logistic Regression classifiers for binar
 
 This program compares the performance of Perceptron Classifier and Logistic Regression Classifier for binary classification problem using the iris dataset. The program uses the scikit-learn and matplotlib libraries, which can be installed using the following command:
 
-``
+```
 pip install scikit-learn matplotlib
 ```
 
+
 ## The program has the following parts:
 
+```
 Perceptron Classifier
 a. Using only sepal and petal lengths, the program plots the number of misclassified samples at the end of each of 50 iterations.
 b. With sepal and petal lengths as x1 and x2 coordinates, the program plots the sample data and separation regions after 50 iterations. It shows the final value of weight w.
@@ -44,3 +46,17 @@ than the perceptron classifier. The logistic classifier can learn complicated an
 adds a nonlinear modification of the input information. The logistic classifier is more precise than the perceptron classifier and may reach minimal error after fewer
 iterations, but it takes more compute and memory to retain the weights and input data. The trade-off between accuracy and complexity, as well as the unique application
 needs, determine the classifier to choose.
+```
+
+The Outputs of the Matplotlib:
+![image](https://user-images.githubusercontent.com/33391934/230037724-c06fd0b6-56d6-4c60-a084-f44b1a0dc48a.png)
+![image](https://user-images.githubusercontent.com/33391934/230037856-ff693abd-3295-423b-bc08-b152ceca1032.png)
+![image](https://user-images.githubusercontent.com/33391934/230038030-5268d8d0-98af-4759-a791-25a89172b726.png)
+![image](https://user-images.githubusercontent.com/33391934/230038155-e51cac6f-a3b4-4e9c-adb1-1cedccd022e3.png)
+![image](https://user-images.githubusercontent.com/33391934/230038286-d944b5dd-2c61-41f5-802c-c02b0a6923c1.png)
+
+
+
+
+
+
